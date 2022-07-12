@@ -59,33 +59,33 @@ namespace SimpleWeather
             try
             {
                 if (Menu.Conditions[0].IconConditions == "01d")
-                    WeatherShowPictureBox.Image = new Bitmap(@"resourses\ClearSun.png");
+                    WeatherShowPictureBox.Image = new Bitmap(@"resources\ClearSun.png");
                 else if (Menu.Conditions[0].IconConditions == "01n")
-                    WeatherShowPictureBox.Image = new Bitmap(@"resourses\ClearMoon.png");
+                    WeatherShowPictureBox.Image = new Bitmap(@"resources\ClearMoon.png");
                 else if (Menu.Conditions[0].IconConditions == "02d" || Menu.Conditions[0].IconConditions == "03d")
-                    WeatherShowPictureBox.Image = new Bitmap(@"resourses\PartlyCloudySun.png");
+                    WeatherShowPictureBox.Image = new Bitmap(@"resources\PartlyCloudySun.png");
                 else if (Menu.Conditions[0].IconConditions == "02n" || Menu.Conditions[0].IconConditions == "03n")
-                    WeatherShowPictureBox.Image = new Bitmap(@"resourses\PartlyCloudyMoon.png");
+                    WeatherShowPictureBox.Image = new Bitmap(@"resources\PartlyCloudyMoon.png");
                 else if (Menu.Conditions[0].IconConditions == "04d" || Menu.Conditions[0].IconConditions == "04n")
-                    WeatherShowPictureBox.Image = new Bitmap(@"resourses\MainlyCloudy.png");
+                    WeatherShowPictureBox.Image = new Bitmap(@"resources\MainlyCloudy.png");
                 else if (Menu.Conditions[0].IconConditions == "09d" || Menu.Conditions[0].IconConditions == "09n")
-                    WeatherShowPictureBox.Image = new Bitmap(@"resourses\ShowerRain.png");
+                    WeatherShowPictureBox.Image = new Bitmap(@"resources\ShowerRain.png");
                 else if (Menu.Conditions[0].IconConditions == "10d")
-                    WeatherShowPictureBox.Image = new Bitmap(@"resourses\RainSun.png");
+                    WeatherShowPictureBox.Image = new Bitmap(@"resources\RainSun.png");
                 else if (Menu.Conditions[0].IconConditions == "10n")
-                    WeatherShowPictureBox.Image = new Bitmap(@"resourses\RainMoon.png");
+                    WeatherShowPictureBox.Image = new Bitmap(@"resources\RainMoon.png");
                 else if (Menu.Conditions[0].IconConditions == "10d")
-                    WeatherShowPictureBox.Image = new Bitmap(@"resourses\RainSun.png");
+                    WeatherShowPictureBox.Image = new Bitmap(@"resources\RainSun.png");
                 else if (Menu.Conditions[0].IconConditions == "11d")
-                    WeatherShowPictureBox.Image = new Bitmap(@"resourses\ThunderstormSun.png");
+                    WeatherShowPictureBox.Image = new Bitmap(@"resources\ThunderstormSun.png");
                 else if (Menu.Conditions[0].IconConditions == "11n")
-                    WeatherShowPictureBox.Image = new Bitmap(@"resourses\ThunderstormMoon.png");
+                    WeatherShowPictureBox.Image = new Bitmap(@"resources\ThunderstormMoon.png");
                 else if (Menu.Conditions[0].IconConditions == "13d")
-                    WeatherShowPictureBox.Image = new Bitmap(@"resourses\SnowSun.png");
+                    WeatherShowPictureBox.Image = new Bitmap(@"resources\SnowSun.png");
                 else if (Menu.Conditions[0].IconConditions == "13n")
-                    WeatherShowPictureBox.Image = new Bitmap(@"resourses\SnowMoon.png");
+                    WeatherShowPictureBox.Image = new Bitmap(@"resources\SnowMoon.png");
                 else if (Menu.Conditions[0].IconConditions == "50d" || Menu.Conditions[0].IconConditions == "50n")
-                    WeatherShowPictureBox.Image = new Bitmap(@"resourses\Mist.png");
+                    WeatherShowPictureBox.Image = new Bitmap(@"resources\Mist.png");
                 else
                     WeatherShowPictureBox.Image = null;
             }
