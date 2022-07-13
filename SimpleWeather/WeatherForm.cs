@@ -36,9 +36,7 @@ namespace SimpleWeather
             }
 
             using (StreamReader reader = new StreamReader(httpWebResponse.GetResponseStream()))
-            {
                 response = reader.ReadToEnd();
-            }
 
             //Deserializating site's json response and output deserealized data to the user interface
             WeatherJsonReader Menu = JsonConvert.DeserializeObject<WeatherJsonReader>(response);
@@ -104,9 +102,7 @@ namespace SimpleWeather
         private void InputTextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == '\r')
-            {
                 ShowWeatherInfo();
-            }
         }
     }
 }
